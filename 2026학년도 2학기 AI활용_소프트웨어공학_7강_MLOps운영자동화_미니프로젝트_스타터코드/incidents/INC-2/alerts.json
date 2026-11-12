@@ -1,8 +1,0 @@
-[
-  {
-    "ts": "05:10",
-    "rule": "rec-ctr-drop",
-    "severity": "ticket",
-    "detail": "추천 클릭률 0.043 (30분 합산)"
-  }
-]
