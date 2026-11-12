@@ -6,5 +6,49 @@
     "mitigation": [{ "action": "rollback", "command": "npm run rollback -- --to previous" }],
     "escalation": { "after": "20분", "to": "인프라 온콜" },
     "verify": ["p95 가 500ms 미만으로 10분 유지"]
-  }
+  },
+"RB-ERROR-FAST": {
+"title": "지속적인 오류율 급증",
+"owner": "백엔드 온콜",
+"firstFiveMinutes": [
+"최근 5분 오류율과 요청 표본 수 확인",
+"오류가 집중된 엔드포인트와 최근 배포 확인"
+],
+"mitigation": [
+{
+"action": "rollback",
+"command": "npm run rollback -- --to previous"
+}
+],
+"escalation": {
+"after": "10분",
+"to": "서비스 담당 엔지니어 및 인프라 온콜"
+},
+"verify": [
+"오류율이 정상 수준으로 내려가고 10분 이상 유지되는지 확인"
+]
+},
+
+"RB-LATENCY-CREEP": {
+  "title": "지속적인 응답 지연 증가",
+  "owner": "백엔드 온콜",
+  "firstFiveMinutes": [
+    "최근 15분 p95 응답시간 추이 확인",
+    "지연이 집중된 엔드포인트와 최근 배포 및 설정 변경 확인"
+  ],
+  "mitigation": [
+    {
+      "action": "rollback",
+      "command": "npm run rollback -- --to previous"
+    }
+  ],
+  "escalation": {
+    "after": "10분",
+    "to": "서비스 담당 엔지니어 및 인프라 온콜"
+  },
+  "verify": [
+    "p95 응답시간이 SLO 기준 이하로 회복되는지 확인"
+  ]
+}
+
 }
