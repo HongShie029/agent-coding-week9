@@ -1,0 +1,19 @@
+{
+  "name": "minimall-ops-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI 활용 소프트웨어 공학 7강 — MLOps · 운영자동화 미니 프로젝트 (수업용 가상 예시)",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "eval": "node scripts/eval.js all",
+    "eval:pipeline": "node scripts/eval.js pipeline",
+    "eval:alerts": "node scripts/eval.js alerts",
+    "eval:policy": "node scripts/eval.js policy",
+    "eval:rollout": "node scripts/eval.js rollout",
+    "eval:ai": "node scripts/eval.js all --dir ai_ops",
+    "retrain": "node scripts/retrain.js",
+    "runbook": "node scripts/check_runbook.js",
+    "incidents": "node scripts/check_incidents.js",
+    "ops-ci": "node scripts/ops-ci.js"
+  }
+}

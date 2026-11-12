@@ -1,0 +1,49 @@
+{
+  "id": "c08",
+  "title": "테스트 도구 업그레이드 (개발 전용 치명 취약점)",
+  "touches": [
+    "src"
+  ],
+  "diff": {
+    "files": [
+      {
+        "path": "src/cart.js",
+        "added": 14,
+        "removed": 3
+      }
+    ],
+    "secrets": []
+  },
+  "tests": {
+    "total": 120,
+    "passed": 118,
+    "failed": 0,
+    "skipped": 2,
+    "retries": 0,
+    "coveragePct": 91,
+    "coverageBasePct": 91.5,
+    "mutationScore": 88
+  },
+  "build": {
+    "ok": true,
+    "sizeMB": 42,
+    "baseSizeMB": 41,
+    "vulns": [
+      {
+        "id": "CVE-2026-8888",
+        "severity": "critical",
+        "scope": "dev"
+      }
+    ]
+  },
+  "migration": null,
+  "model": null,
+  "staging": {
+    "smokePassed": 12,
+    "smokeTotal": 12
+  },
+  "expected": {
+    "decision": "pass",
+    "codes": []
+  }
+}

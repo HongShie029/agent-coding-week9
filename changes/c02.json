@@ -1,0 +1,51 @@
+{
+  "id": "c02",
+  "title": "주문 취소 로직 리팩터링 (테스트 3건 실패)",
+  "touches": [
+    "src"
+  ],
+  "diff": {
+    "files": [
+      {
+        "path": "src/cart.js",
+        "added": 14,
+        "removed": 3
+      }
+    ],
+    "secrets": []
+  },
+  "tests": {
+    "total": 120,
+    "passed": 115,
+    "failed": 3,
+    "skipped": 2,
+    "retries": 0,
+    "coveragePct": 91,
+    "coverageBasePct": 91.5,
+    "mutationScore": 88
+  },
+  "build": {
+    "ok": true,
+    "sizeMB": 42,
+    "baseSizeMB": 41,
+    "vulns": [
+      {
+        "id": "CVE-2026-0101",
+        "severity": "medium",
+        "scope": "runtime"
+      }
+    ]
+  },
+  "migration": null,
+  "model": null,
+  "staging": {
+    "smokePassed": 12,
+    "smokeTotal": 12
+  },
+  "expected": {
+    "decision": "block",
+    "codes": [
+      "TEST_FAIL"
+    ]
+  }
+}
