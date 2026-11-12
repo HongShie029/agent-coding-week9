@@ -1,0 +1,142 @@
+{"id":"L0001","ts":"11:30","level":"INFO","svc":"deploy","msg":"DEP-1038 web v1.3.9 applied (deploy)"}
+{"id":"L0002","ts":"13:00","level":"INFO","svc":"api","msg":"POST /cart/items 200 111ms"}
+{"id":"L0003","ts":"13:02","level":"INFO","svc":"api","msg":"GET /products 200 88ms"}
+{"id":"L0004","ts":"13:03","level":"INFO","svc":"api","msg":"GET /products 200 123ms"}
+{"id":"L0005","ts":"13:05","level":"INFO","svc":"health","msg":"healthcheck ok instances=4/4"}
+{"id":"L0006","ts":"13:05","level":"WARN","svc":"cache","msg":"cache miss ratio 0.41 above 0.30 (key=product:list)"}
+{"id":"L0007","ts":"13:07","level":"INFO","svc":"api","msg":"POST /cart/items 200 97ms"}
+{"id":"L0008","ts":"13:08","level":"INFO","svc":"health","msg":"healthcheck ok instances=4/4"}
+{"id":"L0009","ts":"13:10","level":"INFO","svc":"health","msg":"healthcheck ok instances=4/4"}
+{"id":"L0010","ts":"13:12","level":"INFO","svc":"api","msg":"GET /products 200 97ms"}
+{"id":"L0011","ts":"13:14","level":"INFO","svc":"api","msg":"GET /products 200 82ms"}
+{"id":"L0012","ts":"13:16","level":"INFO","svc":"api","msg":"POST /cart/items 200 110ms"}
+{"id":"L0013","ts":"13:17","level":"INFO","svc":"api","msg":"GET /products 200 72ms"}
+{"id":"L0014","ts":"13:19","level":"INFO","svc":"api","msg":"GET /products 200 101ms"}
+{"id":"L0015","ts":"13:20","level":"INFO","svc":"api","msg":"GET /products 200 138ms"}
+{"id":"L0016","ts":"13:22","level":"INFO","svc":"api","msg":"GET /products 200 128ms"}
+{"id":"L0017","ts":"13:24","level":"INFO","svc":"api","msg":"GET /products 200 175ms"}
+{"id":"L0018","ts":"13:26","level":"INFO","svc":"api","msg":"POST /cart/items 200 44ms"}
+{"id":"L0019","ts":"13:28","level":"INFO","svc":"api","msg":"GET /products 200 165ms"}
+{"id":"L0020","ts":"13:30","level":"INFO","svc":"api","msg":"POST /cart/items 200 81ms"}
+{"id":"L0021","ts":"13:32","level":"INFO","svc":"api","msg":"GET /products 200 147ms"}
+{"id":"L0022","ts":"13:33","level":"INFO","svc":"api","msg":"GET /products 200 151ms"}
+{"id":"L0023","ts":"13:34","level":"INFO","svc":"order","msg":"order created id=O-88642 amount=79000"}
+{"id":"L0024","ts":"13:36","level":"INFO","svc":"api","msg":"GET /products 200 123ms"}
+{"id":"L0025","ts":"13:38","level":"INFO","svc":"health","msg":"healthcheck ok instances=4/4"}
+{"id":"L0026","ts":"13:40","level":"INFO","svc":"health","msg":"healthcheck ok instances=4/4"}
+{"id":"L0027","ts":"13:40","level":"WARN","svc":"cache","msg":"cache miss ratio 0.43 above 0.30 (key=product:list)"}
+{"id":"L0028","ts":"13:41","level":"INFO","svc":"api","msg":"GET /products 200 108ms"}
+{"id":"L0029","ts":"13:42","level":"INFO","svc":"health","msg":"healthcheck ok instances=4/4"}
+{"id":"L0030","ts":"13:44","level":"INFO","svc":"health","msg":"healthcheck ok instances=4/4"}
+{"id":"L0031","ts":"13:45","level":"INFO","svc":"health","msg":"healthcheck ok instances=4/4"}
+{"id":"L0032","ts":"13:47","level":"INFO","svc":"health","msg":"healthcheck ok instances=4/4"}
+{"id":"L0033","ts":"13:48","level":"INFO","svc":"api","msg":"GET /products 200 90ms"}
+{"id":"L0034","ts":"13:50","level":"INFO","svc":"api","msg":"GET /products 200 66ms"}
+{"id":"L0035","ts":"13:52","level":"INFO","svc":"api","msg":"POST /cart/items 200 81ms"}
+{"id":"L0036","ts":"13:54","level":"INFO","svc":"api","msg":"GET /products 200 86ms"}
+{"id":"L0037","ts":"13:55","level":"INFO","svc":"api","msg":"GET /products 200 131ms"}
+{"id":"L0038","ts":"13:57","level":"INFO","svc":"api","msg":"GET /products 200 174ms"}
+{"id":"L0039","ts":"13:58","level":"INFO","svc":"api","msg":"POST /cart/items 200 102ms"}
+{"id":"L0040","ts":"13:59","level":"INFO","svc":"api","msg":"GET /products 200 160ms"}
+{"id":"L0041","ts":"14:00","level":"INFO","svc":"api","msg":"GET /products 200 120ms"}
+{"id":"L0042","ts":"14:01","level":"INFO","svc":"order","msg":"order created id=O-88756 amount=33000"}
+{"id":"L0043","ts":"14:02","level":"INFO","svc":"api","msg":"GET /products 200 65ms"}
+{"id":"L0044","ts":"14:02","level":"WARN","svc":"api","msg":"DeprecationWarning: legacy endpoint /v1/cart will be removed"}
+{"id":"L0045","ts":"14:03","level":"INFO","svc":"api","msg":"POST /cart/items 200 42ms"}
+{"id":"L0046","ts":"14:04","level":"INFO","svc":"order","msg":"order created id=O-88856 amount=22000"}
+{"id":"L0047","ts":"14:06","level":"INFO","svc":"health","msg":"healthcheck ok instances=4/4"}
+{"id":"L0048","ts":"14:08","level":"INFO","svc":"api","msg":"GET /products 200 146ms"}
+{"id":"L0049","ts":"14:09","level":"INFO","svc":"api","msg":"GET /products 200 76ms"}
+{"id":"L0050","ts":"14:10","level":"INFO","svc":"deploy","msg":"DEP-1042 api v1.4.0 applied (deploy)"}
+{"id":"L0051","ts":"14:10","level":"INFO","svc":"api","msg":"release v1.4.0 started: env DB_POOL_SIZE=5 (previous 20)"}
+{"id":"L0052","ts":"14:11","level":"INFO","svc":"api","msg":"POST /cart/items 200 66ms"}
+{"id":"L0053","ts":"14:13","level":"INFO","svc":"api","msg":"GET /products 200 71ms"}
+{"id":"L0054","ts":"14:14","level":"INFO","svc":"api","msg":"GET /products 200 120ms"}
+{"id":"L0055","ts":"14:16","level":"INFO","svc":"api","msg":"GET /products 200 75ms"}
+{"id":"L0056","ts":"14:16","level":"ERROR","svc":"api","msg":"db pool exhausted: 5/5 connections in use (db=orders), waiting=37"}
+{"id":"L0057","ts":"14:17","level":"ERROR","svc":"api","msg":"TimeoutError: acquiring connection timed out after 3000ms (GET /orders)"}
+{"id":"L0058","ts":"14:18","level":"INFO","svc":"api","msg":"GET /products 200 107ms"}
+{"id":"L0059","ts":"14:18","level":"ERROR","svc":"api","msg":"db pool exhausted: 5/5 connections in use (db=orders), waiting=37"}
+{"id":"L0060","ts":"14:19","level":"INFO","svc":"api","msg":"GET /products 200 63ms"}
+{"id":"L0061","ts":"14:19","level":"ERROR","svc":"api","msg":"db pool exhausted: 5/5 connections in use (db=orders), waiting=88"}
+{"id":"L0062","ts":"14:20","level":"ERROR","svc":"api","msg":"TimeoutError: acquiring connection timed out after 3000ms (GET /orders)"}
+{"id":"L0063","ts":"14:21","level":"INFO","svc":"api","msg":"GET /products 200 145ms"}
+{"id":"L0064","ts":"14:22","level":"INFO","svc":"health","msg":"healthcheck ok instances=4/4"}
+{"id":"L0065","ts":"14:22","level":"ERROR","svc":"api","msg":"db pool exhausted: 5/5 connections in use (db=orders), waiting=88"}
+{"id":"L0066","ts":"14:23","level":"INFO","svc":"order","msg":"order created id=O-88024 amount=34000"}
+{"id":"L0067","ts":"14:24","level":"INFO","svc":"api","msg":"POST /cart/items 200 95ms"}
+{"id":"L0068","ts":"14:24","level":"ERROR","svc":"api","msg":"TimeoutError: acquiring connection timed out after 3000ms (POST /orders)"}
+{"id":"L0069","ts":"14:25","level":"ERROR","svc":"api","msg":"TimeoutError: acquiring connection timed out after 3000ms (POST /orders)"}
+{"id":"L0070","ts":"14:26","level":"INFO","svc":"api","msg":"GET /products 200 99ms"}
+{"id":"L0071","ts":"14:26","level":"ERROR","svc":"api","msg":"db pool exhausted: 5/5 connections in use (db=orders), waiting=37"}
+{"id":"L0072","ts":"14:28","level":"INFO","svc":"order","msg":"order created id=O-88631 amount=10000"}
+{"id":"L0073","ts":"14:28","level":"ERROR","svc":"api","msg":"TimeoutError: acquiring connection timed out after 3000ms (GET /orders)"}
+{"id":"L0074","ts":"14:30","level":"INFO","svc":"api","msg":"GET /products 200 103ms"}
+{"id":"L0075","ts":"14:30","level":"WARN","svc":"api","msg":"DeprecationWarning: legacy endpoint /v1/cart will be removed"}
+{"id":"L0076","ts":"14:30","level":"ERROR","svc":"api","msg":"db pool exhausted: 5/5 connections in use (db=orders), waiting=88"}
+{"id":"L0077","ts":"14:31","level":"INFO","svc":"health","msg":"healthcheck ok instances=4/4"}
+{"id":"L0078","ts":"14:32","level":"ERROR","svc":"api","msg":"TimeoutError: acquiring connection timed out after 3000ms (POST /orders)"}
+{"id":"L0079","ts":"14:33","level":"INFO","svc":"api","msg":"GET /products 200 87ms"}
+{"id":"L0080","ts":"14:34","level":"ERROR","svc":"api","msg":"db pool exhausted: 5/5 connections in use (db=orders), waiting=37"}
+{"id":"L0081","ts":"14:35","level":"INFO","svc":"api","msg":"GET /products 200 105ms"}
+{"id":"L0082","ts":"14:36","level":"ERROR","svc":"api","msg":"TimeoutError: acquiring connection timed out after 3000ms (GET /orders)"}
+{"id":"L0083","ts":"14:37","level":"INFO","svc":"api","msg":"POST /cart/items 200 90ms"}
+{"id":"L0084","ts":"14:38","level":"INFO","svc":"health","msg":"healthcheck ok instances=4/4"}
+{"id":"L0085","ts":"14:38","level":"ERROR","svc":"api","msg":"db pool exhausted: 5/5 connections in use (db=orders), waiting=88"}
+{"id":"L0086","ts":"14:39","level":"INFO","svc":"api","msg":"POST /cart/items 200 41ms"}
+{"id":"L0087","ts":"14:40","level":"INFO","svc":"api","msg":"GET /products 200 152ms"}
+{"id":"L0088","ts":"14:40","level":"ERROR","svc":"api","msg":"TimeoutError: acquiring connection timed out after 3000ms (POST /orders)"}
+{"id":"L0089","ts":"14:41","level":"INFO","svc":"api","msg":"GET /products 200 158ms"}
+{"id":"L0090","ts":"14:42","level":"INFO","svc":"api","msg":"GET /products 200 106ms"}
+{"id":"L0091","ts":"14:42","level":"ERROR","svc":"api","msg":"db pool exhausted: 5/5 connections in use (db=orders), waiting=37"}
+{"id":"L0092","ts":"14:43","level":"INFO","svc":"order","msg":"order created id=O-88724 amount=61000"}
+{"id":"L0093","ts":"14:44","level":"INFO","svc":"api","msg":"GET /products 200 82ms"}
+{"id":"L0094","ts":"14:44","level":"ERROR","svc":"api","msg":"TimeoutError: acquiring connection timed out after 3000ms (GET /orders)"}
+{"id":"L0095","ts":"14:45","level":"INFO","svc":"api","msg":"POST /cart/items 200 127ms"}
+{"id":"L0096","ts":"14:46","level":"INFO","svc":"api","msg":"POST /cart/items 200 73ms"}
+{"id":"L0097","ts":"14:46","level":"ERROR","svc":"api","msg":"db pool exhausted: 5/5 connections in use (db=orders), waiting=88"}
+{"id":"L0098","ts":"14:48","level":"INFO","svc":"api","msg":"GET /products 200 167ms"}
+{"id":"L0099","ts":"14:48","level":"ERROR","svc":"api","msg":"TimeoutError: acquiring connection timed out after 3000ms (POST /orders)"}
+{"id":"L0100","ts":"14:50","level":"INFO","svc":"api","msg":"GET /products 200 168ms"}
+{"id":"L0101","ts":"14:50","level":"ERROR","svc":"api","msg":"db pool exhausted: 5/5 connections in use (db=orders), waiting=37"}
+{"id":"L0102","ts":"14:51","level":"INFO","svc":"order","msg":"order created id=O-88846 amount=45000"}
+{"id":"L0103","ts":"14:52","level":"INFO","svc":"api","msg":"GET /products 200 130ms"}
+{"id":"L0104","ts":"14:52","level":"ERROR","svc":"api","msg":"TimeoutError: acquiring connection timed out after 3000ms (GET /orders)"}
+{"id":"L0105","ts":"14:53","level":"INFO","svc":"api","msg":"GET /products 200 175ms"}
+{"id":"L0106","ts":"14:54","level":"INFO","svc":"order","msg":"order created id=O-88751 amount=65000"}
+{"id":"L0107","ts":"14:54","level":"ERROR","svc":"api","msg":"db pool exhausted: 5/5 connections in use (db=orders), waiting=88"}
+{"id":"L0108","ts":"14:55","level":"INFO","svc":"order","msg":"order created id=O-88160 amount=51000"}
+{"id":"L0109","ts":"14:56","level":"INFO","svc":"api","msg":"GET /products 200 135ms"}
+{"id":"L0110","ts":"14:56","level":"ERROR","svc":"api","msg":"TimeoutError: acquiring connection timed out after 3000ms (POST /orders)"}
+{"id":"L0111","ts":"14:57","level":"INFO","svc":"api","msg":"GET /products 200 107ms"}
+{"id":"L0112","ts":"14:58","level":"INFO","svc":"api","msg":"POST /cart/items 200 68ms"}
+{"id":"L0113","ts":"14:58","level":"ERROR","svc":"api","msg":"db pool exhausted: 5/5 connections in use (db=orders), waiting=37"}
+{"id":"L0114","ts":"15:00","level":"INFO","svc":"api","msg":"GET /products 200 142ms"}
+{"id":"L0115","ts":"15:00","level":"ERROR","svc":"api","msg":"TimeoutError: acquiring connection timed out after 3000ms (GET /orders)"}
+{"id":"L0116","ts":"15:02","level":"INFO","svc":"api","msg":"GET /products 200 112ms"}
+{"id":"L0117","ts":"15:02","level":"ERROR","svc":"api","msg":"db pool exhausted: 5/5 connections in use (db=orders), waiting=88"}
+{"id":"L0118","ts":"15:03","level":"INFO","svc":"api","msg":"GET /products 200 79ms"}
+{"id":"L0119","ts":"15:04","level":"INFO","svc":"api","msg":"POST /cart/items 200 57ms"}
+{"id":"L0120","ts":"15:04","level":"ERROR","svc":"api","msg":"TimeoutError: acquiring connection timed out after 3000ms (POST /orders)"}
+{"id":"L0121","ts":"15:05","level":"INFO","svc":"api","msg":"POST /cart/items 200 125ms"}
+{"id":"L0122","ts":"15:06","level":"INFO","svc":"health","msg":"healthcheck ok instances=4/4"}
+{"id":"L0123","ts":"15:06","level":"ERROR","svc":"api","msg":"db pool exhausted: 5/5 connections in use (db=orders), waiting=37"}
+{"id":"L0124","ts":"15:08","level":"INFO","svc":"order","msg":"order created id=O-88170 amount=28000"}
+{"id":"L0125","ts":"15:08","level":"ERROR","svc":"api","msg":"TimeoutError: acquiring connection timed out after 3000ms (GET /orders)"}
+{"id":"L0126","ts":"15:09","level":"INFO","svc":"api","msg":"POST /cart/items 200 104ms"}
+{"id":"L0127","ts":"15:10","level":"INFO","svc":"order","msg":"order created id=O-88354 amount=76000"}
+{"id":"L0128","ts":"15:10","level":"ERROR","svc":"api","msg":"db pool exhausted: 5/5 connections in use (db=orders), waiting=88"}
+{"id":"L0129","ts":"15:12","level":"INFO","svc":"api","msg":"GET /products 200 106ms"}
+{"id":"L0130","ts":"15:12","level":"ERROR","svc":"api","msg":"TimeoutError: acquiring connection timed out after 3000ms (POST /orders)"}
+{"id":"L0131","ts":"15:14","level":"INFO","svc":"api","msg":"GET /products 200 76ms"}
+{"id":"L0132","ts":"15:14","level":"ERROR","svc":"api","msg":"db pool exhausted: 5/5 connections in use (db=orders), waiting=37"}
+{"id":"L0133","ts":"15:15","level":"INFO","svc":"order","msg":"order created id=O-88831 amount=14000"}
+{"id":"L0134","ts":"15:16","level":"ERROR","svc":"api","msg":"TimeoutError: acquiring connection timed out after 3000ms (GET /orders)"}
+{"id":"L0135","ts":"15:17","level":"INFO","svc":"health","msg":"healthcheck ok instances=4/4"}
+{"id":"L0136","ts":"15:18","level":"INFO","svc":"api","msg":"GET /products 200 79ms"}
+{"id":"L0137","ts":"15:19","level":"INFO","svc":"api","msg":"POST /cart/items 200 112ms"}
+{"id":"L0138","ts":"15:21","level":"INFO","svc":"api","msg":"GET /products 200 168ms"}
+{"id":"L0139","ts":"15:23","level":"INFO","svc":"api","msg":"GET /products 200 101ms"}
+{"id":"L0140","ts":"15:25","level":"INFO","svc":"api","msg":"GET /products 200 79ms"}
+{"id":"L0141","ts":"15:27","level":"INFO","svc":"api","msg":"POST /cart/items 200 61ms"}
+{"id":"L0142","ts":"15:29","level":"INFO","svc":"api","msg":"GET /products 200 170ms"}

@@ -1,0 +1,8 @@
+[
+  {
+    "ts": "19:32",
+    "rule": "payment-fail-rate",
+    "severity": "page",
+    "detail": "결제 실패율 38% (10분)"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ETL-318",
+    "ts": "02:00",
+    "kind": "etl",
+    "svc": "data-pipeline",
+    "version": "job-318",
+    "changes": [
+      "상류 주문 스키마 변경 반영: price 컬럼 기본값 처리"
+    ]
+  },
+  {
+    "id": "DEP-M503",
+    "ts": "03:30",
+    "kind": "model",
+    "svc": "recommender-train",
+    "version": "v12-train",
+    "changes": [
+      "야간 정기 재학습 (데이터: 최근 30일)"
+    ]
+  },
+  {
+    "id": "DEP-M504",
+    "ts": "04:10",
+    "kind": "model",
+    "svc": "recommender",
+    "version": "v12",
+    "changes": [
+      "모델 v12 운영 반영 (v11 → v12)"
+    ]
+  }
+]

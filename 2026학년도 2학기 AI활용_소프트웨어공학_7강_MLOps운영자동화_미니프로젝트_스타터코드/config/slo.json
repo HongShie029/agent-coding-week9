@@ -1,0 +1,6 @@
+{
+  "availability": 0.995,
+  "p95Ms": 800,
+  "paymentFailMax": 0.05,
+  "recCtrBaseline": 0.08
+}

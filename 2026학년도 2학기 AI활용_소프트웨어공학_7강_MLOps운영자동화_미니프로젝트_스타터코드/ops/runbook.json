@@ -1,0 +1,10 @@
+{
+  "RB-EXAMPLE": {
+    "title": "예시: 응답 지연이 매우 큼",
+    "owner": "백엔드 온콜",
+    "firstFiveMinutes": ["가장 느린 엔드포인트 3개와 시작 시각 확인", "최근 1시간 이내 배포 · 설정 변경 목록 확인"],
+    "mitigation": [{ "action": "rollback", "command": "npm run rollback -- --to previous" }],
+    "escalation": { "after": "20분", "to": "인프라 온콜" },
+    "verify": ["p95 가 500ms 미만으로 10분 유지"]
+  }
+}
